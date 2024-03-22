@@ -53,7 +53,7 @@ public class BookingController {
 	VNPayService vnPayService;
 	@Autowired
 	EmailService emailService;
-
+//Giau
 	@RequestMapping("/booking/{id}")
 	public String booking(Model model, @PathVariable("id") String id) {
 		Hotel hotel = (Hotel) session.get("hotel");
