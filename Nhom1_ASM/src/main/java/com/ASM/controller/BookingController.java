@@ -53,9 +53,7 @@ public class BookingController {
 	VNPayService vnPayService;
 	@Autowired
 	EmailService emailService;
-//Huy
-	//Hello ThuanNguyen
-	//NgocGiau hello
+
 	@RequestMapping("/booking/{id}")
 	public String booking(Model model, @PathVariable("id") String id) {
 		Hotel hotel = (Hotel) session.get("hotel");
