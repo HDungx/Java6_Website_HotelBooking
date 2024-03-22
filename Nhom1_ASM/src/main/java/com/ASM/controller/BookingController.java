@@ -55,7 +55,7 @@ public class BookingController {
 	EmailService emailService;
 
 	//Hello ThuanNguyen
-	
+	//NgocGiau hello
 	@RequestMapping("/booking/{id}")
 	public String booking(Model model, @PathVariable("id") String id) {
 		Hotel hotel = (Hotel) session.get("hotel");
