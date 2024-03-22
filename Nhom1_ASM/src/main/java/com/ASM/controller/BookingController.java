@@ -53,7 +53,7 @@ public class BookingController {
 	VNPayService vnPayService;
 	@Autowired
 	EmailService emailService;
-
+//Huy
 	//Hello ThuanNguyen
 	//NgocGiau hello
 	@RequestMapping("/booking/{id}")
