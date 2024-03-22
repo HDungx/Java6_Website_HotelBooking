@@ -54,7 +54,7 @@ public class BookingController {
 	@Autowired
 	EmailService emailService;
 
-
+	//Hello ThuanNguyen
 	
 	@RequestMapping("/booking/{id}")
 	public String booking(Model model, @PathVariable("id") String id) {
