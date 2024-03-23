@@ -8,12 +8,12 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @Configuration
 public class AuthInterConfig implements WebMvcConfigurer{
-	@Autowired
-	AuthIntercepter auth;
-
-	@Override
-	public void addInterceptors(InterceptorRegistry registry) {
-		registry.addInterceptor(auth).addPathPatterns("/profile/**","/admin/**", "/vnpay","/thanhtoan")
-				.excludePathPatterns("/login", "/logout", "/signup","/forgotpass","/home","/hotel/detail/**","/hotel/list","/logoutad");
-	}
+//	@Autowired
+//	AuthIntercepter auth;
+//
+//	@Override
+//	public void addInterceptors(InterceptorRegistry registry) {
+//		registry.addInterceptor(auth).addPathPatterns("/profile/**","/admin/**", "/vnpay","/thanhtoan")
+//				.excludePathPatterns("/login", "/logout", "/signup","/forgotpass","/home","/hotel/detail/**","/hotel/list","/logoutad");
+//	}
 }
